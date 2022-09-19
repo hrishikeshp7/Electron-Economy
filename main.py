@@ -7,7 +7,7 @@ import json
 import random
 from keep_alive import keep_alive
 
-client = commands.Bot(command_prefix='hp')
+client = commands.Bot(command_prefix='hp', intents = discord.Intents.all())
 
 client.remove_command("help")
 
